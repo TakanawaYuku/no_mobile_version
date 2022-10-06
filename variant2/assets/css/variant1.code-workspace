@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\..\\variant1"
+	},
+	{
+		"path": "..\\.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "variant2",
+    "liveServer.settings.port": 5501
+  }
+}
