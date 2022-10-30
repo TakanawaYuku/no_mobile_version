@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+    background: #E5E5E5;
+    font-family: 'Roboto' sans-serif;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+.header {
+    width: 1219px;
+    height: 84px;
+    background: #007765;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    top: 20px;
+    left: 55px;
+}
+
+.navigation {
+    position: relative;
+    display: flex;
+    right: 55px;
+}
+
+.nav_menu {
+    display: flex;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav_item:nth-child(n + 2)::before {
+    content: "|";
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+.hero {
+    display: flex;
+    width: 1219px;
+    height: 403px;
+    left: 0px;
+    top: 84px;
+    background-image: url(../img/hero/background_hero.png);
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_title {
+    font-size: 72px;
+    color: #ffffff;
+
+}
