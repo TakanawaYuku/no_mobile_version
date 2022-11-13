@@ -226,3 +226,27 @@ ol {
     text-align: center;
     color: #000000;
 }
+
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+
+}
+
+.footer_text {
+    width: 25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+
+}
